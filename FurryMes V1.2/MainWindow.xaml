@@ -1,0 +1,23 @@
+﻿<Window x:Class="FurryMes_V1._2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FurryMes_V1._2"
+        mc:Ignorable="d"
+         Title="MainWindow" Height="450" Width="800"
+        WindowStyle="SingleBorderWindow"
+        Background="Transparent"
+       >
+    <Border Background="#272537"
+            CornerRadius="5">
+        <Grid>
+            <TextBox x:Name="MessageTextSubject" Width="326" Height="38" TextWrapping="Wrap" Text="Тема сообщения..." Background="#FFE5E5EA" BorderBrush="#FF121213" FontFamily="Times New Roman" VerticalAlignment="Top" HorizontalAlignment="Left" FontSize="16" Foreground="#FF0D0D0E" BorderThickness="0,1,1,1" Margin="448,30,0,0" AcceptsTab="True" AcceptsReturn="True"  />
+            <Button Content="Отправить сообщение" HorizontalAlignment="Left" Margin="448,319,0,0" VerticalAlignment="Top" Width="326" Click="Button_Click_1"/>
+            <Button Content="Парсинг ватчеров" HorizontalAlignment="Left" Margin="31,30,0,0" VerticalAlignment="Top" Width="343" Height="38" Click="Button_Click"/>
+            <Button Content="STOP" HorizontalAlignment="Left" Margin="631,359,0,0" VerticalAlignment="Top" Width="143" Height="38" Background="#FFF15454" Click="Button_Click_2"/>
+            <TextBox x:Name="MessageTextMain" Width="326" Height="210" TextWrapping="Wrap" Text="Вводи сообщение сюда" Background="#FFE5E5EA" BorderBrush="#FF121213" FontFamily="Times New Roman" VerticalAlignment="Top" HorizontalAlignment="Left" FontSize="16" Foreground="#FF0D0D0E" BorderThickness="0,1,1,1" Margin="448,84,0,0" AcceptsTab="True" AcceptsReturn="True"  />
+
+        </Grid>
+    </Border>
+</Window>
